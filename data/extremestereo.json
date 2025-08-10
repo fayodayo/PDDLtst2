@@ -17,6 +17,11 @@
             "user": "deacnome",
             "link": "https://www.youtube.com/watch?v=USkKVS-iPRA&ab_channel=deacnome%28gd%29",
             "percent": 100
+        },
+                      {
+            "user": "duck",
+            "link": "https://www.youtube.com/watch?v=YTsI5-nhX2U&ab_channel=duck",
+            "percent": 100
         }
     ]
 }
