@@ -17,6 +17,11 @@
             "user": "duck",
             "link": "https://www.youtube.com/watch?v=iMfHyDXvCa4&ab_channel=duck",
             "percent": 100
+        },
+                            {
+            "user": "Fernando",
+            "link": "https://youtu.be/q9YBrRVs0WA?si=gUQLJB4bjGORZFln",
+            "percent": 100
         }
     ]
 }
