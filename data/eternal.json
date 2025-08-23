@@ -1,4 +1,4 @@
-{
+    {
     "id": 1079569,
     "name": "Eternal",
     "author": "CrEf85",
@@ -46,6 +46,11 @@
                               {
             "user": "duck",
             "link": "https://www.youtube.com/watch?v=Jt9KQOtx9vU&ab_channel=duck",
+            "percent": 100
+        },
+                            {
+            "user": "ATOMIC",
+            "link": "https://medal.tv/games/roblox/clips/kWvyHyYKHicxLmx1o?invite=cr-MSxzQVcsNDI4Njg3NDE3&v=74",
             "percent": 100
         }
     ]
