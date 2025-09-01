@@ -8,5 +8,10 @@
     "percentToQualify": "100",
     "password": "-",
     "records": [
+                      {
+            "user": "Omikron",
+            "link": "https://youtu.be/B7d_UzU_93I?si=zwDqjRHejw5L_K9Q",
+            "percent": 100
+        }
     ]
 }
