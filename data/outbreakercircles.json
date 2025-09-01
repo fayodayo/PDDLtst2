@@ -32,6 +32,11 @@
             "user": "duck",
             "link": "https://www.youtube.com/watch?v=YTsI5-nhX2U&ab_channel=duck",
             "percent": 100
+        },
+                {
+            "user": "Luca",
+            "link": "https://vm.tiktok.com/ZNdVRVbAu/",
+            "percent": 100
         }
     ]
 }
