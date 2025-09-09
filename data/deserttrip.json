@@ -8,5 +8,10 @@
     "percentToQualify": "66",
     "password": "-",
     "records": [
+                                      {
+            "user": "Luca",
+            "link": "https://vm.tiktok.com/ZNdbhA947/",
+            "percent": 100
+        }
     ]
 }
