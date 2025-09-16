@@ -8,5 +8,15 @@
     "percentToQualify": "65",
     "password": "-",
     "records": [
+                                      {
+            "user": "Rein",
+            "link": "https://youtu.be/ObkZTBXh654?si=9ILnRiy9OrC_Scm5",
+            "percent": 100
+        },
+                                      {
+            "user": "Angryface",
+            "link": "https://www.youtube.com/watch?v=MpYITZjcG74&ab_channel=AngryFace",
+            "percent": 100
+        }
     ]
 }
