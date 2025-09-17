@@ -9,7 +9,7 @@
     --color-error: #de0000;
     --color-on-error: white;
 }
-
+{
 from "_list.json":
 <li style="color:#4EE2EC">"azureflare"</span></li>;
    <li style="color:green"><span style="color:black">This bullet is green</span></li>
