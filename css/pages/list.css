@@ -20,17 +20,6 @@
 .page-list .list .level {
     width: 100%;
 }
-.page-list .list .level.diamond button {
-        background-color: var(--color-background);
-    color: #4EE2EC;
-    border: none;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    text-align: start;
-    word-break: normal;
-    overflow-wrap: anywhere;
-    cursor: pointer;
-}
 .page-list .list .level button {
     background-color: var(--color-background);
     color: var(--color-on-background);
@@ -41,6 +30,54 @@
     word-break: normal;
     overflow-wrap: anywhere;
     cursor: pointer;
+}
+.page-list .list .level.diamond button {
+        background-color: var(--color-background);
+    color: #4EE2EC;
+}
+.page-list .list .level.ruby button {
+        background-color: var(--color-background);
+    color: #E0115F;
+}
+.page-list .list .level.emerald button {
+        background-color: var(--color-background);
+    color: #50C878;
+}
+.page-list .list .level.jade button {
+        background-color: var(--color-background);
+    color: #57ebc3;
+}
+.page-list .list .level.sapphire button {
+        background-color: var(--color-background);
+    color: #0F52BA;
+}
+.page-list .list .level.platinum button {
+        background-color: var(--color-background);
+    color: #e7cffa;
+}
+.page-list .list .level.amber button {
+        background-color: var(--color-background);
+    color: #ff9d00;
+}
+.page-list .list .level.gold button {
+        background-color: var(--color-background);
+    color: #ffcc00;
+}
+.page-list .list .level.silver button {
+        background-color: var(--color-background);
+    color: #C0C0C0;
+}
+.page-list .list .level.bronze button {
+        background-color: var(--color-background);
+    color: #CD7F32;
+}
+.page-list .list .level.beginner button {
+        background-color: var(--color-background);
+    color: #fcfffd;
+}
+.page-list .list .level.wood button {
+        background-color: var(--color-background);
+    color: #635238;
 }
 .page-list .list .level.error button {
     color: var(--color-error);
