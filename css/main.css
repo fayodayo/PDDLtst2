@@ -10,7 +10,7 @@
     --color-on-error: white;
 }
 
-import "list.json":
+import "_list.json":
 <li style="color:#4EE2EC">"Azure Flare"</span></li>;
    <li style="color:green"><span style="color:black">This bullet is green</span></li>
    <li style="color:blue"><span style="color:black">This bullet is blue</span></li>
