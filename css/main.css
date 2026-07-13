@@ -85,25 +85,24 @@ input[type="checkbox"] {
 .gradient-1 {
     background: linear-gradient(
         90deg,
-        #FFFFFF,
-        #FFFFFF,
-        #B8F3FF,
-        #33C7FF,
-        #275BF5
+        #FFFFFF 0%,
+        #B8F3FF 40%,
+        #33C7FF 70%,
+        #275BF5 100%
     );
 
-    background-size: 300% 100%;
-    background-position: left center;
+    background-size: 250% 100%;
+    background-position: 0% 50%;
 
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 
-    transition: background-position .6s cubic-bezier(.22, 1, .36, 1);
+    transition: background-position 0.5s cubic-bezier(.22, 1, .36, 1);
 }
 
 .level button:hover .gradient-1 {
-    background-position: right center;
+    background-position: 35% 50%;
 }
 
 .gradient-2 {
