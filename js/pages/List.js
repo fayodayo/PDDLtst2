@@ -32,7 +32,7 @@ export default {
                         'jade': (i >= 30) && (i <= 44) , 'sapphire': (i >= 45) && (i <= 59) , 'platinum': (i >= 60) && (i <= 74) , 'amber': (i >= 75) && (i <= 89) , 'gold': (i >= 90) && (i <= 109) , 
                         'silver': (i >= 110) && (i <= 124) , 'bronze': (i >= 125) && (i <= 139) , 'beginner': (i >= 140) && (i <= 149) , 'wood': (i >= 150)}">
                             <button @click="selected = i">
-                                <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
+                                <span class="type-label-lg level-gradient">{{ level?.name || \`Error (\${err}.json)\` }}</span>
                             </button>
                         </td>
                     </tr>
