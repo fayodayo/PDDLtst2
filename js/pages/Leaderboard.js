@@ -7,6 +7,14 @@ export default {
     components: {
         Spinner,
     },
+    const user = { name: "fayodayo", country: "pl" }; // Poland
+
+const playerElement = `
+  <span>
+    <span class="fi fi-${user.country.toLowerCase()}" style="margin-right: 8px;"></span>
+    ${user.name}
+  </span>
+`;
     data: () => ({
         leaderboard: [],
         loading: true,
