@@ -83,7 +83,7 @@ input[type="checkbox"] {
 }
 
 .gradient-1 {
-    background: linear-gradient(90deg, #FFFFFF 0%, #AEEBFF 45%, #4FC3F7 100%);
+    background: linear-gradient(90deg, #FFFFFF 0%, #E8FCFF 35%, #7ED8FF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
