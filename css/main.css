@@ -82,8 +82,20 @@ input[type="checkbox"] {
     margin: 0;
 }
 
-.level-gradient {
-    background: linear-gradient(90deg, #ff3c3c, #ffb300);
+.gradient-1 {
+    background: linear-gradient(90deg, #00E5FF, #2979FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-2 {
+    background: linear-gradient(90deg, #FF00FF, #7B1FA2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-3 {
+    background: linear-gradient(90deg, #FFD54F, #FF6F00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
