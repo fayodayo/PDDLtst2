@@ -37,6 +37,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: #FFFFFF;
 }
 .page-list .list .level.ruby button {
         background-color: var(--color-background);
