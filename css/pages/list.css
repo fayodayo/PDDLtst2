@@ -32,12 +32,7 @@
     cursor: pointer;
 }
 .page-list .list .level.diamond button {
-    background-color: var(--color-background);
-    background: linear-gradient(90deg, #2BBCC8 0%, #8AF7FF 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: ##4EE2EC;
+    background-color: var(--color-background); color: #4EE2EC;
 }
 .page-list .list .level.ruby button {
         background-color: var(--color-background);
