@@ -34,6 +34,7 @@
 .page-list .list .level.diamond button {
     background-color: var(--color-background); background: linear-gradient(90deg, #2BBCC8 0%, #4EE2EC 50%, #8AF7FF 100%);
     color: #4EE2EC;
+    /* Fuckass code holy shit */
 }
 .page-list .list .level.ruby button {
         background-color: var(--color-background);
