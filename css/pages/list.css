@@ -31,8 +31,12 @@
     overflow-wrap: anywhere;
     cursor: pointer;
 }
-.page-list .list .level.diamond button {
-    color: #4EE2EC;
+.page-list .list .level.diamond .type-label-lg {
+    background: linear-gradient(90deg, #2BBCC8 0%, #4EE2EC 50%, #8AF7FF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
     /* Fuckass code holy shit */
     /* WIP, This is the mistake the code has. */
 }
