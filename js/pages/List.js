@@ -42,7 +42,6 @@ export default {
                                 'gradient-6': i === (i >= 6) && (i <= 14) 
                                 'gradient-5': i === 4
                                 }">{{ level?.name || \`Error (\${err}.json)\` }}</span>
-                                /* Testing if this workes on this code? */
                             </button>
                         </td>
                     </tr>
