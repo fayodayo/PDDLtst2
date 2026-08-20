@@ -113,7 +113,7 @@ input[type="checkbox"] {
 
 
 .gradient-diamond {
-    background: linear-gradient(90deg, #0000ff, #FFFFFF);
+    background: linear-gradient(90deg, #B2FFFF, #FFFFFF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
