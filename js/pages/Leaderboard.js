@@ -56,6 +56,17 @@ export default {
                         'jade': (score.rank >= 31) && (score.rank <= 45) , 'sapphire': (score.rank >= 46) && (score.rank <= 60) , 'platinum': (score.rank >= 61) && (score.rank <= 75) , 'amber': (score.rank >= 76) && (score.rank <= 90) , 'gold': (score.rank >= 91) && (score.rank <= 110) , 
                         'silver': (score.rank >= 111) && (score.rank <= 125) , 'bronze': (score.rank >= 126) && (score.rank <= 140) , 'beginner': (score.rank >= 141) && (score.rank <= 150) , 'wood': (score.rank >= 151)}"  target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
+                                <button @click="selected = i">
+                                <span class="type-label-lg"
+                                :class="{ 
+                                'gradient-1': i === 0,
+                                'gradient-2': i === 1,
+                                'gradient-3': i === 2,
+                                'gradient-4': i === 3,
+                                'gradient-diamond': i >= 3 && i <= 5,
+                                'gradient-ruby': i >= 6 && i <= 15,
+                                'gradient-emerald': i >= 16 && i <= 30
+                                }">{{ level?.name || \`Error (\${err}.json)\` }}</span>
                                 <td class="score">
                                     <p>+{{ localize(score.score) }}</p>
                                 </td>
