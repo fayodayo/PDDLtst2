@@ -95,7 +95,6 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-}
 .page-leaderboard .player .table .level.ruby {
         background-color: var(--color-background);
     color: #e82e74;
