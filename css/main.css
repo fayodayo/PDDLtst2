@@ -122,9 +122,3 @@ input[type="checkbox"] {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-.gradient-ruby {
-    background: linear-gradient(90deg, #E82E74, #FF78A8);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
