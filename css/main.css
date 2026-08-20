@@ -123,3 +123,9 @@ input[type="checkbox"] {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.gradient-emerald {
+    background: linear-gradient(90deg, #36d20b, #0f9308);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
