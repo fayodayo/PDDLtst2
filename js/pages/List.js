@@ -39,7 +39,7 @@ export default {
                                 'gradient-3': i === 2,
                                 'gradient-4': i === 3,
                                 'gradient-diamond': i >= 3 && i <= 5,
-                                'gradient-ruby': i >= 6 && i <= 15
+                                'gradient-ruby': i >= 6 && i <= 15,
                                 'gradient-emerald': i >= 16 && i <= 30
                                 }">{{ level?.name || \`Error (\${err}.json)\` }}</span>
                             </button>
