@@ -25,23 +25,29 @@ export default {
                 <table class="list" v-if="list">
                     <tr v-for="([level, err], i) in list">
                         <td class="rank">
-                            <p v-if="i + 1 <= 150" class="type-label-lg">#{{ i + 1 }}</p>
+                            <p v-if="i + 1 <= 1000000" class="type-label-lg">#{{ i + 1 }}</p>
                             <p v-else class="type-label-lg">Legacy</p>
                         </td>
-                        <td class="level" :class="{ 'active': selected == i, 'error': !level , 'diamond': i <= 4 , 'ruby': (i >= 5) && (i <= 14) , 'emerald': (i >= 15) && (i <= 29) , 
-                        'jade': (i >= 30) && (i <= 44) , 'sapphire': (i >= 45) && (i <= 59) , 'platinum': (i >= 60) && (i <= 74) , 'amber': (i >= 75) && (i <= 89) , 'gold': (i >= 90) && (i <= 109) , 
-                        'silver': (i >= 110) && (i <= 124) , 'bronze': (i >= 125) && (i <= 139) , 'beginner': (i >= 140) && (i <= 149) , 'wood': (i >= 150)}">
+                        <td class="level" :class="{ 'active': selected == i, 'error': !level , 
+                        'amethyst': i <= 10 , 
+                        'pearl': (i >= 11) && (i <= 20) , 
+                        'diamond': (i >= 21) && (i <= 30) , 
+                        'ruby': (i >= 31) && (i <= 40) , 
+                        'emerald': (i >= 41) && (i <= 50) , 
+                        'jade': (i >= 51) && (i <= 60) , 
+                        'malachite': (i >= 61) && (i <= 70) , 
+                        'osmium': (i >= 71) && (i <= 80) ,
+                        'sapphire': (i >= 81) && (i <= 90) , 
+                        'titanium': (i >= 91) && (i <= 100) ,
+                        'platinum': (i >= 101) && (i <= 110) , 
+                        'amber': (i >= 111) && (i <= 120) , 
+                        'gold': (i >= 121) && (i <= 130) , 
+                        'silver': (i >= 131) && (i <= 140) ,  
+                        'bronze': (i >= 141) && (i <= 150) , 
+                        'beginner': (i >= 151) && (i <= 160) , 
+                        'wood': (i >= 161)}">
                             <button @click="selected = i">
-                                <span class="type-label-lg"
-                                :class="{ 
-                                'gradient-1': i === 0,
-                                'gradient-2': i === 1,
-                                'gradient-3': i === 2,
-                                'gradient-4': i === 3,
-                                'gradient-diamond': i >= 3 && i <= 5,
-                                'gradient-ruby': i >= 6 && i <= 15,
-                                'gradient-emerald': i >= 16 && i <= 30
-                                }">{{ level?.name || \`Error (\${err}.json)\` }}</span>
+                                <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
                             </button>
                         </td>
                     </tr>
@@ -62,14 +68,14 @@ export default {
                             <p>{{ level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Level key</div>
-                            <p>{{ level.key || '' }}</p>
+                            <div class="type-title-sm">Rank</div>
+                            <p>{{ level.password }}</p>
                         </li>
                     </ul>
                     <h2>Records</h2>
                     <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
-                    <p v-else-if="selected +1 <= 185"><strong>100%</strong> or better to qualify</p>
-                    <p v-else>This level does not accept records, some Legacy levels can be accepted for the PDDP.</p>
+                    <p v-else-if="selected +1 <= 100000000"><strong>100%</strong> or better to qualify</p>
+                    <p v-else>Legacy levels can be accepted but only for Discord ranks, however you will not be listed as a victor.</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
                             <td class="percent">
@@ -109,6 +115,15 @@ export default {
                             </li>
                         </ol>
                     </template>
+                    <h3>Help Guide</h3>
+                    <p>
+                        To own an account, you must submit a list level, this is because a profile needs a level to show up on the leaderboards.
+                    </p>
+                    <p>
+                    You can put your name as anything you want to, as long as you stick to it for continuity sake, your personal username though is preferred.
+                    </p>
+                     <p>
+                    </p>
                     <h3>Submission Requirements</h3>
                     <p>
                         Achieved the record without using hacks (External FPS Boosters are allowed)
@@ -129,7 +144,11 @@ export default {
                         Do not use easy modes, only a record of the unmodified level qualifies
                     </p>
                     <p>
-                        Once a level falls onto the Legacy List, we no longer accept records for that level unless it was submitted before it fell off
+                        Level updates are limited to a maximum of 1. This rule has been introduced to prevent levels from being updated solely to artificially inflate their difficulty.
+                    </p>
+                    <p>
+                    </p>
+                    <p>
                     </p>
                     <p>
                     </p>
