@@ -30,12 +30,18 @@
     word-break: normal;
     overflow-wrap: anywhere;
     cursor: pointer;
+    }
+.page-list .list .level.amethyst button {
+        background-color: var(--color-background);
+    color: #9966CC;
+}
+.page-list .list .level.pearl button {
+        background-color: var(--color-background);
+    color: #F8C8DC;
 }
 .page-list .list .level.diamond button {
-    background-color: var(--color-background);
-    color: #FFFFFF; 
-    /* Fuckass code holy shit */
-    /* WIP, This is the mistake the code has. */
+        background-color: var(--color-background);
+    color: #4EE2EC;
 }
 .page-list .list .level.ruby button {
         background-color: var(--color-background);
@@ -47,11 +53,23 @@
 }
 .page-list .list .level.jade button {
         background-color: var(--color-background);
-    color: #57ebc3;
+    color: #19b49e;
+}
+.page-list .list .level.malachite button {
+        background-color: var(--color-background);
+    color: #0bda51;
+}
+.page-list .list .level.osmium button {
+        background-color: var(--color-background);
+    color: #a4a4f5;
 }
 .page-list .list .level.sapphire button {
         background-color: var(--color-background);
     color: #6ca1f5;
+}
+.page-list .list .level.titanium button {
+        background-color: var(--color-background);
+    color: #a69f94;
 }
 .page-list .list .level.platinum button {
         background-color: var(--color-background);
