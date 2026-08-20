@@ -89,7 +89,6 @@
     width: 100%;
 }
 .page-leaderboard .player .table .level.diamond {
-    background-color: var(--color-background);
     background: linear-gradient(90deg, #FFFFFFF, #8AF7FF);
     -webkit-background-clip: text;
     background-clip: text;
