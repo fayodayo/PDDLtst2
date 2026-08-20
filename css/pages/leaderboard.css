@@ -89,8 +89,12 @@
     width: 100%;
 }
 .page-leaderboard .player .table .level.diamond {
-        background-color: var(--color-background);
-    color: #4EE2EC;
+    background-color: var(--color-background);
+    background: linear-gradient(90deg, #4EE2EC, #8AF7FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 }
 .page-leaderboard .player .table .level.ruby {
         background-color: var(--color-background);
